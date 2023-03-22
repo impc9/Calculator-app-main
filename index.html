@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <div id="calcTag">
+        <h1>calc</h1>
+        <div id="theme">
+          <h5>THEME</h5>
+          <div id="selector">
+            <div id="toggleNum">
+              <h6>1</h6>
+              <h6>2</h6>
+              <h6>3</h6>
+            </div>
+            <div id="toggleView">
+              <div id="th1"><h6 id="theme1">.</h6></div>
+              <div id="th2"><h6 id="theme2">.</h6></div>
+              <div id="th3"><h6 id="theme3">.</h6></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="text" id="screen" readonly>
+      <div id="keypad">
+        <div id="charKey">
+          <table id="tab1">
+            <tr>
+              <td><button class="btn">7</button></td>
+              <td><button class="btn">8</button></td>
+              <td><button class="btn">9</button></td>
+              <td><button class="reset">DEL</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn">4</button></td>
+              <td><button class="btn">5</button></td>
+              <td><button class="btn">6</button></td>
+              <td><button class="btn">+</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn">1</button></td>
+              <td><button class="btn">2</button></td>
+              <td><button class="btn">3</button></td>
+              <td><button class="btn">-</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn">.</button></td>
+              <td><button class="btn">0</button></td>
+              <td><button class="btn">/</button></td>
+              <td><button class="btn">x</button></td>
+            </tr>
+          </table>
+          <table id="tab2">
+            <tr>
+              <td><button id="reset" class="reset">RESET</button></td>
+              <td><button id="equal">=</button></td>
+            </tr>
+          </table>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">IMPC</a>.
+  </div>
+</body>
+
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 20px;
+    color: hsl(198, 87%, 43%);
+}
+.attribution a { color: hsl(6, 100%, 58%); }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: hsl(222, 26%, 31%);
+    /* background-color: hsl(0, 0%, 90%); */
+    /* background-color: hsl(268, 75%, 9%); */
+}
+
+.container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.calculator{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#calcTag{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(0, 0%, 100%);
+    /* color: hsl(60, 10%, 19%); */
+    /* color: hsl(52, 100%, 62%); */
+}
+
+h1{
+    font-size: 2vw;
+}
+
+#theme{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5{
+    font-size: 1vw;
+}
+
+#selector{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#toggleNum{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -8px;
+}
+
+h6{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    font-size: 1vw;
+    margin: 5px;
+}
+
+#toggleView{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35%;
+    background-color: hsl(223, 31%, 20%);
+    /* background-color: hsl(0, 5%, 81%); */
+    /* background-color: hsl(268, 71%, 12%); */
+    border-radius: 20px;
+}
+
+#th1, #th2, #th3{
+    width: 33%;
+    display: flex; 
+    cursor: pointer;
+}
+
+#theme1, #theme2, #theme3{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(6, 63%, 50%);
+    color: hsl(6, 63%, 50%);
+    border-radius: 30px; 
+    cursor: pointer;
+}
+
+#theme2{
+    visibility: hidden;
+    background-color: hsl(25, 98%, 40%);
+    color:hsl(25, 98%, 40%);
+}
+
+#theme3{
+    visibility: hidden;
+    background-color: hsl(176, 100%, 44%);
+    color:hsl(176, 100%, 44%);
+}
+
+#screen{
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    background-color: hsl(224, 36%, 15%);
+    /* background-color: hsl(0, 0%, 93%); */
+    /* background-color: hsl(268, 71%, 12%); */
+    color: hsl(0, 0%, 100%);
+    /* color: hsl(60, 10%, 19%); */
+    /* color: hsl(52, 100%, 62%); */
+    height: 20%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 4vw;
+    outline: none;
+}
+
+#keypad{
+    background-color: hsl(223, 31%, 20%);
+    /* background-color: hsl(0, 5%, 81%); */
+    /* background-color: hsl(268, 71%, 12%); */
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#charKey{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tab1{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0;
+}
+
+tbody{
+    width: 95%;
+}
+
+#tab1 tr{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content: space-evenly;
+}
+
+#tab1 td{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+button{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    /* margin-top: 20px;
+    margin-bottom: 30px; */
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 25%, 89%);
+    /* background-color: hsl(45, 7%, 89%); */
+    /* background-color: hsl(268, 47%, 21%); */
+    color: hsl(60, 10%, 19%);
+    /* color: hsl(52, 100%, 62%); */
+    font-size: 3vw;
+    font-weight: bold;
+    box-shadow: 0px 5px hsl(28, 16%, 65%);
+    /* box-shadow: 0px 5px hsl(35, 11%, 61%); */
+    /* box-shadow: 0px 5px hsl(290, 70%, 36%); */
+    font-family: 'League Spartan', sans-serif;
+    cursor: pointer;
+}
+
+#tab2{
+    width: 100%;
+    height: 20%;
+}
+
+#tab2 tr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+#tab2 td{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#reset{
+    width: 80%;
+    height: 70%;
+}
+
+#equal{
+    width: 80%;
+    height: 70%;
+    background-color: hsl(6, 63%, 50%);
+    /* background-color: hsl(25, 98%, 40%); */
+    /* background-color: hsl(176, 100%, 44%); */
+    /* color: hsl(0, 0%, 100%); */
+    color: hsl(198, 20%, 13%);
+    box-shadow: 0px 5px hsl(6, 70%, 34%);
+    /* box-shadow: 0px 5px hsl(25, 99%, 27%); */
+    /* box-shadow: 0px 5px hsl(177, 92%, 70%); */
+}
+
+.reset{
+    font-size: 2vw;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(225, 21%, 49%);
+    /* background-color: hsl(185, 42%, 37%); */
+    /* background-color: hsl(281, 89%, 26%); */
+    box-shadow: 0px 5px hsl(224, 28%, 35%);
+    /* box-shadow: 0px 5px hsl(185, 58%, 25%); */
+    /* box-shadow: 0px 5px hsl(285, 91%, 52%); */
+}
+
