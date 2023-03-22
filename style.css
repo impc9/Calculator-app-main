@@ -45,10 +45,6 @@ body{
     /* color: hsl(52, 100%, 62%); */
 }
 
-h1{
-    font-size: 2vw;
-}
-
 #theme{
     width: 30%;
     height: 100%;
@@ -58,7 +54,7 @@ h1{
 }
 
 h5{
-    font-size: 1vw;
+    font-size: 14px;
 }
 
 #selector{
@@ -80,7 +76,7 @@ h6{
     display: flex;
     justify-content: center;
     width: 30%;
-    font-size: 1vw;
+    font-size: 14px;
     margin: 5px;
 }
 
@@ -103,7 +99,7 @@ h6{
 }
 
 #theme1, #theme2, #theme3{
-    width: 80%;
+    width: 50%;
     justify-content: center;
     align-items: center;
     background-color: hsl(6, 63%, 50%);
