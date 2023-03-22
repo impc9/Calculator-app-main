@@ -258,3 +258,8 @@ button{
     /* box-shadow: 0px 5px hsl(285, 91%, 52%); */
 }
 
+@media(max-width: 700px){
+    .calculator{
+        width: 80%;
+    }
+}
